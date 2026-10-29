@@ -1,6 +1,16 @@
 # Cathedra Integra
 
-Estudo, oração e preparação para a confissão. Versão 2.4.0: 85 textos bilíngues, leitura por voz conforme o navegador, biblioteca documental, catequese e exame de consciência com exportação.
+Estudo, oração e preparação para a confissão. Versão 2.5.0: 85 textos bilíngues, leitura por voz conforme o navegador, biblioteca documental, catequese e exame de consciência com exportação.
+
+## Personagem e fontes — versão 2.5.0
+
+As duas edições compartilham o novo perfil de personagem: voz clerical, confessional, devota e incisiva, sem anunciar a interpretação a cada resposta. A descrição pública continua identificando o personagem como IA. Não afirma ordenação real nem exerce autoridade sacramental. As instruções preservam rigor documental, caridade com pessoas e honestidade quando o usuário pergunta expressamente sobre a identidade do bot.
+
+O modelo recebe 54 fichas de obras anteriores à abertura do Vaticano II, em 11/10/1962. As 11 fichas modernas ou sem data original confirmada deixam de aparecer na biblioteca selecionável e no contexto de IA. Concílios anteriores, inclusive Trento e Vaticano I, são conservados; reimpressões e digitalizações atuais de originais antigos continuam admissíveis. Comentários modernos favoráveis à própria corrente também são excluídos. O catálogo original de 65 fichas é mantido como arquivo histórico do plugin, sem ser reinjetado no prompt.
+
+O bot desta versão não tem ferramenta de pesquisa: a proibição de buscar fontes excluídas é uma regra do perfil, enquanto o filtro de acervo é aplicado pelo código. Não há garantia de que todo modelo externo obedecerá perfeitamente. Em conversas antigas, o perfil atualizado orienta as novas respostas; iniciar uma conversa nova reduz a influência da voz anterior. Mensagens já escritas não são alteradas.
+
+Para atualizar seu repositório, envie os arquivos deste pacote preservando a estrutura; o workflow Pages existente reconstruirá o site. Para atualizar a instalação local, substitua os arquivos do app e preserve .local e seus dados. A alteração é de interface e instruções, portanto não requer reiniciar o servidor: recarregue a página e, se necessário, informe novamente a chave OpenRouter. Não recarregue um exame de consciência não exportado.
 
 ## Duas formas de usar
 

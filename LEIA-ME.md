@@ -1,3 +1,13 @@
+# Versão 2.5.0 — Voz confessional e acervo tradicional
+
+O personagem ganhou uma voz devota, clerical e firme, com instruções para manter a imersão nos diálogos habituais. O perfil do app é compartilhado entre ChatGPT e OpenRouter; as skills do plugin instalado não foram alteradas. A apresentação continua identificando o personagem como IA, sem alegar ordenação ou autoridade sacramental.
+
+O contexto e a biblioteca selecionável passam a 54 fontes antigas: Vaticano II, textos posteriores e registros modernos sem data original confirmada ficam fora do perfil. A data da obra original prevalece sobre reimpressões e hospedagem atual. Trento e Vaticano I continuam incluídos. As instruções antigas do plugin deixam de ser enviadas integralmente ao modelo, evitando orientações contraditórias sobre anúncios de persona.
+
+Após atualizar os arquivos, basta recarregar e iniciar uma conversa nova para experimentar a nova voz. Conversas anteriores permanecem intactas. Não recarregue antes de exportar um exame preenchido. Consulte README.md para a política completa e para publicar a versão online.
+
+---
+
 # Versão 2.4.0 — Edição local e publicação no GitHub Pages
 
 Este pacote contém duas formas de uso. A edição local mantém ChatGPT e OpenRouter. O preparador scripts/build-pages.mjs gera uma edição estática com OpenRouter, sem servidor local, para GitHub Pages. As instruções de publicação estão no README.md e a configuração automática em .github/workflows/pages.yml.
