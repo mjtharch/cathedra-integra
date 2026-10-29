@@ -1,0 +1,16 @@
+{
+  "name": "cathedra-integra-chatgpt-local",
+  "version": "2.3.0",
+  "private": true,
+  "type": "module",
+  "description": "Edição local do Cathedra Integra com Sign in with ChatGPT e OpenRouter",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check server.mjs && node --check local/auth.mjs && node --check dist/app.js && node --check dist/core.js && node --check local/offices.mjs && node --check dist/oratory.js && node --check dist/oratory-core.js && node --check dist/examination.js && node --check dist/examination-core.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
